@@ -7,16 +7,40 @@ let isLoggedIn = false
 console.log(typeof null); //object
 console.log(typeof undefined); //undefined
 
-//Primitive DataTypes:
-//number -> range(2^53)
-//bigint
-//string -> "" or ''
-//boolean -> true/false
+//Primitive DataTypes:(call by value)
+//Number -> range(2^53)
+//BigInt
+//String -> "" or ''
+//Boolean -> true/false
 //null -> standalone value(representation of empty value)
 //undefined -> value not yet assigned
-//symbol -> to find the uniqueness
+//Symbol -> to find the uniqueness
 
-//object: It is a datatype
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id === anotherId);
+
+// JS is a dynamically typed
+
+//Reference(Non-Primitve): Memory me reference inka direct allocate kia jaa sakta hai(call by reference)
+//Objects,Array,Functions(Declarations: )
+// Arrays:
+const names = ["Vanisha","Vaibhav","Harshita"];
+// Objects:
+let myObj = {
+    name: "Vanisha",
+    age: 23,
+}
+// Functions:
+const myFunc = function(){
+    console.log("Hello World");
+}
+
+
+
+
+
 
 
 
