@@ -37,6 +37,7 @@ const myFunc = function(){
     console.log("Hello World");
 }
 
+// Stack(Primitive Data types or call by value) and Heap(Non-Primitve Datatypes or call by reference)
 
 
 
