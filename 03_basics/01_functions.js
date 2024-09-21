@@ -1,3 +1,14 @@
+//ways to degine a function:
+//1st way
+addOne(5)//gives no error...valid
+function addOne(num){
+    return num+1
+}
+//2nd way:
+//addTwo(5)//gives error as the function is acting as a variable here and is not defined yet!
+const addTwo = function(num){
+    return num+2
+}
 //function definition:
 // function sayMyName(){
 //     console.log("V");
