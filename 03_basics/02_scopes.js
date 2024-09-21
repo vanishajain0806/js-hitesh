@@ -9,3 +9,4 @@ if(true){
 console.log(c);//30...this is the reason why we don't use the var!
 
 // console pe global scope aur vs code me node use krne pe gloabal scope are different
+ 
