@@ -1,5 +1,7 @@
 "use strict"; // treat all JS code as newer version
-// alert(3+3) //not allowed because we are using nodejs not browser
+
+// alert(3+3) //not allowed because we are using nodejs not browser//used to pop up a message.
+
 let name = "Vanisha"
 let age = "23"
 let isLoggedIn = false
