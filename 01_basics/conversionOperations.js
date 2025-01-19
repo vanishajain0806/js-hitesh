@@ -18,6 +18,8 @@ let valueInNumber1 = Number(score2)
 // undefined -> undefined
 // true -> 1; false -> 0
 
+// empty string when converted into boolean gives false value.
+
 // ********************** Operations ************************* //
 let val = 7
 let negVal = -val
