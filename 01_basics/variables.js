@@ -1,6 +1,6 @@
 const accountId = 7447
 let accountEmail = "vanisha@gmail.com"
-var accountPassword = "123456" // not preferable because var doesn't contain block scope or functional scope
+var accountPassword = "123456" // not preferable because var doesn't contain block scope or functional scope(we don't use it)
 accountCity = "Lucknow" // possible but not preferable
 
 let name; //returns undefined
