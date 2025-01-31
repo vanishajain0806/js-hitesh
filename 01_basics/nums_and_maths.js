@@ -1,19 +1,20 @@
 const score = 400
 console.log(score);
+console.log(typeof score);
 
-const balance = new Number(100)
+const balance = new Number(100)//to explicitly define the data type of the variable.
 console.log(balance);
 
 console.log(score.toString());
 console.log(score.toString().length);
 
-console.log(score.toFixed(2));
+console.log(score.toFixed(2));//after decimal the no of digits will be 2.
 
 const t = 347.737474
-console.log(t.toPrecision(5));
+console.log(t.toPrecision(5));//total no of digits will be 5
 
 const s = 1000000000
-console.log(s.toLocaleString('en-IN'));
+console.log(s.toLocaleString('en-IN'));//the digits will be seperated by the commas.
 
 // ************** MATHS ************** //
 // console.log(Math);
