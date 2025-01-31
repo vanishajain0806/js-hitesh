@@ -16,7 +16,7 @@ const userName = new String('Vanisha_74_jain')
 // console.log(userName.toUpperCase());
 // console.log(userName.charAt(4));
 // console.log(userName.indexOf('a'));
-const s = userName.substring(0,4);
+const s = userName.substring(0,4);//it doesn't take negative indexes
 // console.log(s);
 const t = userName.slice(-9,4);
 //console.log(t);
