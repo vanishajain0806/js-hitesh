@@ -1,3 +1,6 @@
+// 1. JS Arrays are resizeable and can contain mix datatypes.
+// 2. JS Array copy operations create shallow copies.
+// shallow copies: copy object uses the same reference point. And deep copies are opposite of that.
 const myArr = [0,1,2,3,4,5]
 const arr = ["abc","bcd"]
 const arr2 = new Array(1,2,3,4,5)
