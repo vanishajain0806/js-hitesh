@@ -1,4 +1,4 @@
-// how to destructure the object:
+ // how to destructure the object:
 const course = {
     coursename:"js-hitesh",
     price:999,
