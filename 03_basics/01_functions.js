@@ -5,10 +5,12 @@ function addOne(num){
     return num+1
 }
 //2nd way:
-//addTwo(5)//gives error as the function is acting as a variable here and is not defined yet!
+//addTwo(5)//gives error as the function is acting as a variable here and is not defined yet!//this is called hoisting which states that you can not use any variable above its declaration.
 const addTwo = function(num){
     return num+2
 }
+//console.log(addTwo(5))//gives no error
+
 //function definition:
 // function sayMyName(){
 //     console.log("V");
@@ -62,6 +64,7 @@ const addTwo = function(num){
 //     console.log(`Username is ${anyobject.name} and age is ${anyobject.age}`);
 // }
 // handleObject(user)
+
 // 2nd way:
 // handleObject({
 //     name:"Vanisha",
