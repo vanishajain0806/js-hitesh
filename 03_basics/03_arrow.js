@@ -10,12 +10,12 @@ const user = {
 // user.username = "Harshita"
 // user.welcomeMessage()// Harshita, welcome...
 
-//console.log(this);//{}
+//console.log(this);//{}//this is refering to empty object because we are in node environment.
 //when we will run the above line in the browser it will give the Window Object because in browser Window is the global Object.
 
-// the way we were able to use this in the object, we can't use this the same way like that...it gives undefined as result
+// the way we were able to use "this" in the object, we can't use "this" the same way in the functions...it gives undefined as result
 // function chai(){
-//     // console.log(this);
+//     // console.log(this); //we get a lot of values when "this" is called inside a function in the node environment.
 //     let username = "vanisha"
 //     console.log(this);// same as above 
 //     console.log(this.username)//undefined
@@ -40,7 +40,7 @@ const user = {
 
 // 2nd way:
 // const addTwo = (num1,num2) => (num1+num2)
-//if curly braces are used then we have to write return keyword otherwise not
+//if curly braces are used then we have to write return keyword else if paranthesis used then no need to write return statement.
 // console.log(addTwo(3,4));// 7
 
 // if we have to return obejct:
