@@ -11,4 +11,9 @@
 ( () =>{
     // unnamed IIFE
         console.log(`DB CONNECTED TWO`);
-})()
+})(); //always add semicolon if you want to write another iife after this one so that this iife terminates.
+
+// to give parameters:
+( (name) => {
+    console.log(`My name is ${name}`);
+})('Vanisha');
