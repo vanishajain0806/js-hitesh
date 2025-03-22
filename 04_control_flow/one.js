@@ -1,6 +1,7 @@
 //if/else statements are just same as other languages.
 
 // Nullish Coalescing Operator(??): this is all about null undefined...it is used to check the values coming from database basically it tells if we want to assign any values at the place of any errors then what we can put and how. Major use in the database.
+//both the values are the returned values from any function or database and when we don't want to assign the null the value to our variable then we use ?? operator
 
 let val1;
 //val1 = 5??10 // 5
