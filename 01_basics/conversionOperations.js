@@ -1,4 +1,4 @@
-let score = 33
+let  score = 33
 //both are correct
 //console.log(typeof score);
 //console.log(typeof(score));
@@ -12,6 +12,7 @@ let valueInNumber1 = Number(score2)
 // console.log(typeof(valueInNumber1));
 // console.log(valueInNumber1);
 
+// when other datatypes are converted into number datatypes: 
 // "33" -> 33
 // "33abc" -> NaN
 // null -> 0
