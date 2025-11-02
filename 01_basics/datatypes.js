@@ -1,4 +1,4 @@
- "use strict"; // treat all JS code as newer version
+"use strict"; // treat all JS code as newer version
 
 // alert(3+3) //not allowed because we are using nodejs not browser//used to pop up a message.
 
@@ -23,7 +23,7 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId); //false
 
-// JS is a dynamically typed
+// JS is a dynamically typed// you don't have to declare variable tyoes, they are figured out while the program is running.
 
 //Reference(Non-Primitve): Memory me reference inka direct allocate kia jaa sakta hai(call by reference)
 //Objects,Array,Functions(Declarations: )
