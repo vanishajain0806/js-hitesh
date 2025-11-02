@@ -39,7 +39,8 @@ const myFunc = function(){
     console.log("Hello World");
 }
 
-// Stack(Primitive Data types or call by value) and Heap(Non-Primitve Datatypes or call by reference)
+// Stack Memory(Stack Memory is used for all the primitive data types, here a copy is created for all the variables declared, changes in any variable doesn't affect the another variable)
+// Heap Memory(Heap Memory is used for all the reference data types, here you get a direct reference for that variable, changes affects the other variable which are referencing to the same variable) 
 
 
 
